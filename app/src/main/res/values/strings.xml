@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MultiplePlugin</string>
+    <string name="ai_scene">MultiplePlugin</string>
+    <string name="quick_snapshot">MultiplePlugin</string>
+    <string name="night_snapshot">MultiplePlugin</string>
+    <string name="fill_in_night">MultiplePlugin</string>
+    <string name="night_scene">MultiplePlugin</string>
+    <string name="sport_shoot">MultiplePlugin</string>
+    <string name="slow_motion">MultiplePlugin</string>
+    <string name="ar_camera">MultiplePlugin</string>
+    <string name="full_pic">MultiplePlugin</string>
+    <string name="super_battery">MultiplePlugin</string>
+    <string name="params_property">MultiplePlugin</string>
+</resources>
