@@ -11,6 +11,9 @@ buildscript {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath 'com.qihoo360.replugin:replugin-host-gradle:2.2.2'
         classpath 'com.qihoo360.replugin:replugin-plugin-gradle:2.2.2'
+        //发布插件
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.6'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
     }
 }
 
@@ -28,6 +31,8 @@ allprojects {
             force "com.android.support:recyclerview-v7:${support_version}"
             force "com.android.support:cardview-v7:${support_version}"
             force "com.android.support:design:${support_version}"
+            force "com.android.support:design:${support_version}"
+            force 'com.android.support.constraint:constraint-layout:1.0.2'
         }
     }
 }

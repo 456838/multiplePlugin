@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MultiplePlugin.iml" filepath="$PROJECT_DIR$/MultiplePlugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/musicplugin/musicplugin.iml" filepath="$PROJECT_DIR$/musicplugin/musicplugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/uilib/uilib.iml" filepath="$PROJECT_DIR$/uilib/uilib.iml" />
       <module fileurl="file://$PROJECT_DIR$/videoplugin/videoplugin.iml" filepath="$PROJECT_DIR$/videoplugin/videoplugin.iml" />
     </modules>

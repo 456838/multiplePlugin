@@ -1,2 +1,2 @@
-include ':app', ':videoplugin', ':uilib'
+include ':app', ':videoplugin', ':uilib', ':musicplugin'
 //':predictionplugin', ':webviewdemo',

@@ -3,103 +3,95 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:background="#80000000"
+    android:orientation="vertical"
+    android:scaleX="0.9"
+    android:scaleY="0.9"
     >
 
-    <com.yy.mobile.memoryrecycle.views.YYLinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
+    <com.yy.mobile.memoryrecycle.views.YYFrameLayout
+        android:id="@+id/iv_page_one_01"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
         >
 
-        <com.yy.mobile.memoryrecycle.views.YYFrameLayout
-            android:id="@+id/iv_page_one_01"
-            android:layout_width="wrap_content"
-            android:layout_height="150dp"
-            android:layout_gravity="center"
-            >
-
-            <pl.droidsonroids.gif.GifImageView
-                android:id="@+id/gv_page_one_01"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:src="@mipmap/ic_page_one_03"
-                />
-
-            <com.yy.mobile.memoryrecycle.views.YYTextView
-                style="@style/menu_text"
-                android:text="@string/night_snapshot"
-                />
-        </com.yy.mobile.memoryrecycle.views.YYFrameLayout>
-
-        <com.yy.mobile.memoryrecycle.views.YYFrameLayout
-            android:id="@+id/iv_page_one_02"
-            android:layout_width="wrap_content"
-            android:layout_height="150dp"
-            android:layout_below="@+id/iv_page_one_01"
-            android:layout_gravity="center"
-            >
-
-            <pl.droidsonroids.gif.GifImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:src="@mipmap/ic_page_one_01"
-                />
-
-            <com.yy.mobile.memoryrecycle.views.YYTextView
-                style="@style/menu_text"
-                android:text="@string/ai_scene"
-                />
-        </com.yy.mobile.memoryrecycle.views.YYFrameLayout>
-
-        <com.yy.mobile.memoryrecycle.views.YYFrameLayout
-            android:id="@+id/iv_page_one_03"
-            android:layout_width="wrap_content"
-            android:layout_height="150dp"
-            android:layout_below="@+id/iv_page_one_02"
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gv_page_one_01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            >
+            android:background="@mipmap/ic_page_one_04"
+            />
 
-            <pl.droidsonroids.gif.GifImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:src="@mipmap/ic_page_two_01"
-                />
+        <com.yy.mobile.memoryrecycle.views.YYTextView
+            style="@style/menu_text"
+            android:text="@string/night_snapshot"
+            />
+    </com.yy.mobile.memoryrecycle.views.YYFrameLayout>
 
-            <com.yy.mobile.memoryrecycle.views.YYTextView
-                style="@style/menu_text"
-                android:text="@string/night_scene"
-                />
-        </com.yy.mobile.memoryrecycle.views.YYFrameLayout>
+    <com.yy.mobile.memoryrecycle.views.YYFrameLayout
+        android:id="@+id/iv_page_one_02"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_below="@+id/iv_page_one_01"
+        android:layout_gravity="center"
+        >
 
-        <com.yy.mobile.memoryrecycle.views.YYFrameLayout
-            android:id="@+id/iv_page_one_04"
-            android:layout_width="wrap_content"
-            android:layout_height="150dp"
-            android:layout_below="@+id/iv_page_one_03"
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            >
+            android:background="@mipmap/ic_page_one_01"
+            />
 
-            <pl.droidsonroids.gif.GifImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:src="@mipmap/ic_page_two_03"
-                />
+        <com.yy.mobile.memoryrecycle.views.YYTextView
+            style="@style/menu_text"
+            android:text="@string/ai_scene"
+            />
+    </com.yy.mobile.memoryrecycle.views.YYFrameLayout>
 
-            <com.yy.mobile.memoryrecycle.views.YYTextView
-                style="@style/menu_text"
-                android:text="@string/slow_motion"
-                />
-        </com.yy.mobile.memoryrecycle.views.YYFrameLayout>
+    <com.yy.mobile.memoryrecycle.views.YYFrameLayout
+        android:id="@+id/iv_page_one_03"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_below="@+id/iv_page_one_02"
+        android:layout_gravity="center"
+        >
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@mipmap/ic_page_two_01"
+            />
+
+        <com.yy.mobile.memoryrecycle.views.YYTextView
+            style="@style/menu_text"
+            android:text="@string/night_scene"
+            />
+    </com.yy.mobile.memoryrecycle.views.YYFrameLayout>
+
+    <com.yy.mobile.memoryrecycle.views.YYFrameLayout
+        android:id="@+id/iv_page_one_04"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_below="@+id/iv_page_one_03"
+        android:layout_gravity="center"
+        >
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@mipmap/ic_page_two_03"
+            />
+
+        <com.yy.mobile.memoryrecycle.views.YYTextView
+            style="@style/menu_text"
+            android:text="@string/slow_motion"
+            />
+    </com.yy.mobile.memoryrecycle.views.YYFrameLayout>
 
 
-    </com.yy.mobile.memoryrecycle.views.YYLinearLayout>
 </com.yy.mobile.memoryrecycle.views.YYLinearLayout>

@@ -39,7 +39,7 @@ class MainActivity : BaseSupportActivity() {
     fun receiveMsg(view: View) {
         when (view.id) {
             R.id.iv_page_one_01 -> openPluginOne()
-            R.id.iv_page_one_02 -> openPluginOne()
+            R.id.iv_page_one_02 -> openMusicPlugin()
             R.id.iv_page_one_03 -> openPluginOne()
             R.id.iv_page_one_04 -> openPluginOne()
         }
@@ -49,12 +49,14 @@ class MainActivity : BaseSupportActivity() {
         RePlugin.startActivity(this@MainActivity, RePlugin.createIntent("com.salton123.videoplugin", "com.salton123.videoplugin.VideoPluginActivity"))
     }
 
+    fun openMusicPlugin() {
+        RePlugin.startActivity(this@MainActivity, RePlugin.createIntent("com.salton123.musicplugin", "com.salton123.musicplugin.MainActivity"))
+    }
+
     override fun onDestroy() {
         super.onDestroy()
         EventUtil.unregister(this)
-        if (mImmersionBar != null) {
-            mImmersionBar.destroy()
-        }
+        mImmersionBar.destroy()
     }
 
 //    private fun requestPermission(): Observable<Boolean> {

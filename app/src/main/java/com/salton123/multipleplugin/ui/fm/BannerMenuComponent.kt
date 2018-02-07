@@ -70,6 +70,5 @@ class BannerMenuComponent : BaseSupportFragment() {
             container.addView(linearLayout)
             return linearLayout
         }
-
     }
 }

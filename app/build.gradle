@@ -13,6 +13,13 @@ android {
         applicationId "com.salton123.multipleplugin"
         versionCode 1
         versionName "1.0"
+        ndk {
+            abiFilters "armeabi-v7a"
+        }
+    }
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
     }
     buildTypes {
         release {
@@ -48,4 +55,5 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     implementation 'com.qihoo360.replugin:replugin-host-lib:2.2.2'
     api project(':uilib')
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.10'
 }
